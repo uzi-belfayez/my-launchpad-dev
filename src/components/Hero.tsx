@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
@@ -30,6 +30,10 @@ const Hero = () => {
             </Button>
             <Button variant="outline" size="lg">
               View Projects
+            </Button>
+            <Button variant="secondary" size="lg">
+              <Download className="mr-2 h-4 w-4" />
+              Download CV
             </Button>
           </div>
 
