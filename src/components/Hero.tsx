@@ -11,11 +11,11 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Hi, I'm{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Your Name
+                Rayen Belfayez
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
-              Computer Science Student & Aspiring Software Engineer
+              Student & AI/Embedded Systems Enthusiast
             </p>
             <p className="text-lg text-muted-foreground max-w-lg">
               Passionate about creating innovative solutions and building impactful software. 
