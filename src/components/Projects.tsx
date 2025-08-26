@@ -49,34 +49,34 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <Card key={index} className="shadow-card hover:shadow-soft transition-all duration-300 hover:-translate-y-1 overflow-hidden">
-              <div className="aspect-video overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <CardHeader>
-                <CardTitle className="flex items-center justify-between">
+              <CardHeader className="pb-3">
+                <CardTitle className="flex items-center justify-between text-lg">
                   {project.title}
-                  <div className="flex gap-2">
-                    <Button variant="ghost" size="sm" className="p-2">
-                      <Github className="h-4 w-4" />
+                  <div className="flex gap-1">
+                    <Button variant="ghost" size="sm" className="p-1.5 h-auto">
+                      <Github className="h-3.5 w-3.5" />
                     </Button>
-                    <Button variant="ghost" size="sm" className="p-2">
-                      <ExternalLink className="h-4 w-4" />
+                    <Button variant="ghost" size="sm" className="p-1.5 h-auto">
+                      <ExternalLink className="h-3.5 w-3.5" />
                     </Button>
                   </div>
                 </CardTitle>
-                <CardDescription>{project.description}</CardDescription>
+                <CardDescription className="text-sm line-clamp-2">{project.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
+              <CardContent className="pt-0">
+                <div className="flex flex-wrap gap-1">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="outline">
+                    <Badge key={techIndex} variant="outline" className="text-xs px-2 py-0.5">
                       {tech}
                     </Badge>
                   ))}

@@ -43,15 +43,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative flex justify-center">
           <div className="relative z-10">
             <img 
               src={heroImage} 
-              alt="Professional workspace setup" 
-              className="rounded-lg shadow-card w-full h-auto"
+              alt="Your profile picture" 
+              className="rounded-full shadow-card w-80 h-80 object-cover border-4 border-primary/20"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-primary opacity-20 rounded-lg blur-xl"></div>
+          <div className="absolute inset-0 bg-gradient-primary opacity-20 rounded-full blur-xl w-80 h-80 mx-auto"></div>
         </div>
       </div>
 
