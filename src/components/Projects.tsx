@@ -6,37 +6,61 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack web application with user authentication, product catalog, and payment integration",
+      title: "Vision Foot",
+      description: "An intelligent blind-football coach.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      liveUrl: "#",
-      githubUrl: "#"
+      technologies: ["YOLO", "Arduino", "Raspberry Pi", "Electronics", "Solidworks"],
+      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
     },
     {
-      title: "Task Management App",
-      description: "Responsive web app for project management with real-time collaboration features",
+      title: "2D Football Game",
+      description: "A pygame simulation of 4 Lego EV3 robots playing football autonomously with reinforcement learning.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+      technologies: ["Reinforcement learning", "Deep Q Learning", "Pytorch", "Pygame", "Python"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/uzi-belfayez/FussballRoboter"
     },
     {
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for analyzing business metrics with charts and real-time data",
+      title: "Chess-Playing Robotic Arm",
+      description: "An academic project that consists of a robotic arm that plays chess autonomously.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
-      technologies: ["Python", "Django", "D3.js", "PostgreSQL"],
+      technologies: ["Python", "Open CV", "Linear Optimisation", "Kinematics", "ROS2", "URDF", "Electronics"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Mobile Weather App",
-      description: "Cross-platform mobile application with location-based weather forecasts",
+      title: "2D Java maven Game",
+      description: "A three-level 2D game.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      technologies: ["React Native", "Weather API", "Redux"],
+      technologies: ["Java", "Maven", "Scrum"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/uzi-belfayez/ACL_Project"
+    },
+    {
+      title: "Autonomous Differential Drive Robot",
+      description: "An autonomous robot that does some specific tasks in a map for the eurobot international robotics competition.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      technologies: ["Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Inertia Wheel Pendulum",
+      description: "Equilibred and made a physical pendilum system.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      technologies: ["Arduino", "PID", "Control theory","MATLAB", "Proteus","Electronics", "LabVIEW", "Solid Works"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Street Traffic Management with C pThreads",
+      description: "A terminal simulation of a custumizable street traffic and managinf each vehicule and light with a thread.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      technologies: ["C", "pThreads"],
       liveUrl: "#",
       githubUrl: "#"
     }
+
   ];
 
   return (
