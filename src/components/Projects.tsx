@@ -40,7 +40,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section id="projects" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
@@ -87,9 +87,11 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            <Github className="mr-2 h-4 w-4" />
-            View All Projects on GitHub
+          <Button variant="outline" size="lg" asChild>
+            <a href="https://github.com/uzi-belfayez?tab=overview&from=2025-08-01&to=2025-08-26" target="_blank" rel="noopener noreferrer">
+              <Github className="mr-2 h-4 w-4" />
+              View All Projects on GitHub
+            </a>
           </Button>
         </div>
       </div>

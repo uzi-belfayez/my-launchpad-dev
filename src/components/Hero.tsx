@@ -24,11 +24,19 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="shadow-soft">
+            <Button 
+              size="lg" 
+              className="shadow-soft"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Mail className="mr-2 h-4 w-4" />
               Get In Touch
             </Button>
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               View Projects
             </Button>
             <Button variant="secondary" size="lg">
@@ -38,11 +46,25 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-4 pt-4">
-            <Button variant="ghost" size="sm" className="p-2">
-              <Github className="h-5 w-5" />
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="p-2"
+              asChild
+            >
+              <a href="https://github.com/uzi-belfayez?tab=overview&from=2025-08-01&to=2025-08-26" target="_blank" rel="noopener noreferrer">
+                <Github className="h-5 w-5" />
+              </a>
             </Button>
-            <Button variant="ghost" size="sm" className="p-2">
-              <Linkedin className="h-5 w-5" />
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="p-2"
+              asChild
+            >
+              <a href="https://www.linkedin.com/in/rayen-belfayez" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>

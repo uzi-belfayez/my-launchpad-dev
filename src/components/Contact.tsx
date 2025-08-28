@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-secondary/50">
+    <section id="contact" className="py-20 bg-secondary/50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
@@ -57,13 +57,17 @@ const Contact = () => {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <Button variant="outline" size="sm">
-                <Linkedin className="mr-2 h-4 w-4" />
-                LinkedIn
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://www.linkedin.com/in/rayen-belfayez" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="mr-2 h-4 w-4" />
+                  LinkedIn
+                </a>
               </Button>
-              <Button variant="outline" size="sm">
-                <Github className="mr-2 h-4 w-4" />
-                GitHub
+              <Button variant="outline" size="sm" asChild>
+                <a href="https://github.com/uzi-belfayez?tab=overview&from=2025-08-01&to=2025-08-26" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-4 w-4" />
+                  GitHub
+                </a>
               </Button>
             </div>
           </div>
