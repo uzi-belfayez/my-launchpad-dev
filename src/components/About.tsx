@@ -7,20 +7,20 @@ const About = () => {
     {
       icon: <Award className="h-5 w-5" />,
       title: "Academic Excellence",
-      description: "Maintained 3.8+ GPA while completing challenging coursework",
-      tags: ["GPA: 3.8+", "Dean's List"]
+      description: "Currently pursuing a double degree program with outstanding academic performance",
+      tags: ["Double Degree", "First of Class"]
     },
     {
       icon: <Code className="h-5 w-5" />,
       title: "Technical Projects",
-      description: "Built 5+ full-stack applications using modern technologies",
-      tags: ["React", "Python", "Node.js", "Database Design"]
+      description: "Developed diverse projects in embedded systems, AI, robotics, and software development",
+      tags: ["C/C++", "Python", "ROS2", "Machine Learning", "Deep Learning", "GenAI", "Agentic AI", "SQL", "Gradio", "Git/GitHub", "Linux"]
     },
     {
       icon: <Users className="h-5 w-5" />,
       title: "Leadership",
-      description: "Led team projects and mentored junior developers",
-      tags: ["Team Lead", "Mentoring", "Project Management"]
+      description: "Led team academic and club projects with successful outcomes",
+      tags: ["Academic Projects", "Club Leadership", "Project Management"]
     },
     {
       icon: <Zap className="h-5 w-5" />,
