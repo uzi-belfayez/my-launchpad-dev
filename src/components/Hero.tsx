@@ -39,9 +39,11 @@ const Hero = () => {
             >
               View Projects
             </Button>
-            <Button variant="secondary" size="lg">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
+            <Button variant="secondary" size="lg" asChild>
+              <a href="https://drive.google.com/file/d/1hp6utsZzmyDc333Gpr9JT-MCC49YmWS4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </a>
             </Button>
           </div>
 
