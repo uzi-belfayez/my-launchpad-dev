@@ -15,7 +15,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
@@ -71,30 +71,6 @@ const Contact = () => {
               </Button>
             </div>
           </div>
-
-          <Card className="shadow-card">
-            <CardHeader>
-              <CardTitle>Send a Message</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-4">
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <Input placeholder="First Name" />
-                  </div>
-                  <div>
-                    <Input placeholder="Last Name" />
-                  </div>
-                </div>
-                <Input placeholder="Email Address" type="email" />
-                <Input placeholder="Subject" />
-                <Textarea placeholder="Your message..." className="min-h-32" />
-                <Button className="w-full shadow-soft">
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
