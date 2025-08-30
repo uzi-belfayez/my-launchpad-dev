@@ -104,9 +104,11 @@ const Certifications = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            <Award className="mr-2 h-4 w-4" />
-            View All Credentials
+          <Button variant="outline" size="lg" asChild>
+            <a href="https://drive.google.com/drive/folders/1JISDon4Pj6qq4zrurk0FYeQ8Y96CxPAO?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <Award className="mr-2 h-4 w-4" />
+              View All Credentials
+            </a>
           </Button>
         </div>
       </div>
