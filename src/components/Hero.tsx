@@ -81,9 +81,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ArrowDown className="h-6 w-6 text-muted-foreground" />
-      </div>
+      <button 
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:text-primary transition-colors cursor-pointer"
+        onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+        aria-label="Scroll to next section"
+      >
+        <ArrowDown className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors" />
+      </button>
     </section>
   );
 };
