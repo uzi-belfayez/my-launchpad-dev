@@ -116,12 +116,20 @@ const Projects = () => {
                 <CardTitle className="flex items-center justify-between text-lg">
                   {project.title}
                   <div className="flex gap-1">
-                    <Button variant="ghost" size="sm" className="p-1.5 h-auto">
-                      <Github className="h-3.5 w-3.5" />
-                    </Button>
-                    <Button variant="ghost" size="sm" className="p-1.5 h-auto">
-                      <ExternalLink className="h-3.5 w-3.5" />
-                    </Button>
+                    {project.githubUrl && project.githubUrl !== "#" && (
+                      <Button variant="ghost" size="sm" className="p-1.5 h-auto" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-3.5 w-3.5" />
+                        </a>
+                      </Button>
+                    )}
+                    {project.liveUrl && project.liveUrl !== "#" && (
+                      <Button variant="ghost" size="sm" className="p-1.5 h-auto" asChild>
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-3.5 w-3.5" />
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardTitle>
                 <CardDescription className="text-sm line-clamp-2">{project.description}</CardDescription>
