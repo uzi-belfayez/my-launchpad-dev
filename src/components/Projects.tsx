@@ -5,6 +5,27 @@ import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+      {
+      title: "AiDo",
+      description: "AI-powered personal assistant that manages your tasks, profile, and preferences with long-term and short-term memory.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      technologies: ["Langchain", "Langgraph","Langsmith", "Trustcall","OpenAI", "Gradio", "uv"],
+      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+    },
+    {
+      title: "Creative Researcher Agent",
+      description: "Human-in-the-loop research assistant that generates analysts, gathers insights, and produces structured reports.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      technologies: ["Langchain", "Langgraph", "Langsmith","Trustcall", "OpenAI","Tavily","Gradio", "uv"],
+      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+    },
+      {
+      title: "Pricer Agent",
+      description: "An intelligent pricing system that scans websites for products and their prices, predicts the real market price, evaluates if it is a good deal, and presents the results through a Gradio interface with email notifications.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      technologies: ["Fine Tuning", "RAG", "Langchain", "OpenAI","Gemini", "Chroma db", "Modal", "Gradio","Twilio","Pushover","Beautiful Soup"],
+      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+    },
     {
       title: "Vision Foot",
       description: "An intelligent blind-football coach.",
@@ -40,7 +61,7 @@ const Projects = () => {
       title: "Autonomous Differential Drive Robot",
       description: "An autonomous robot that does some specific tasks in a map for the eurobot international robotics competition.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      technologies: ["Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
+      technologies: ["STM32","Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
       liveUrl: "#",
       githubUrl: "#"
     },
@@ -57,6 +78,14 @@ const Projects = () => {
       description: "A terminal simulation of a custumizable street traffic and managinf each vehicule and light with a thread.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
       technologies: ["C", "pThreads"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Simulation of an autonomous robot navigation in an unknown Environment",
+      description: "Using Gazebo, slam and navigation toolbox to simulate the navigation of a robot in an unknown map.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      technologies: ["ROS2", "Gazebo", "URDF", "SLAM", "Navigation toolbox"],
       liveUrl: "#",
       githubUrl: "#"
     }
