@@ -15,7 +15,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
-              Student & AI/Embedded Systems Enthusiast
+              Engineering Student & AI/Embedded Systems Enthusiast
             </p>
             <p className="text-lg text-muted-foreground max-w-lg">
               Passionate about creating innovative solutions and building impactful software. 
