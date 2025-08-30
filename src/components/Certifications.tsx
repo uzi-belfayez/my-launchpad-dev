@@ -6,52 +6,52 @@ import { Award, ExternalLink, Calendar } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     {
-      title: "AWS Certified Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "2024",
-      credentialId: "AWS-CCP-2024-001",
-      description: "Foundational understanding of AWS Cloud concepts, services, and terminology",
-      skills: ["Cloud Computing", "AWS Services", "Security", "Pricing"]
+      title: "The Complete Agentic AI Engineering Course",
+      issuer: "Ed Donner, Ligency Team",
+      date: "2025",
+      credentialId: "UC-14012e60-2945-4326-813b-f03de08ee7a9",
+      description: "Master AI agents",
+      skills: ["Langgraph", "OpenAI Agents SDK", "CrewAI", "MCP"]
     },
     {
-      title: "Google Data Analytics Certificate",
-      issuer: "Google Career Certificates",
-      date: "2024",
-      credentialId: "GCC-DA-2024-002",
-      description: "Comprehensive program covering data analysis tools and techniques",
-      skills: ["SQL", "R Programming", "Tableau", "Data Visualization"]
+      title: "LLM Engineering: Master AI Large Language Models & Agents ",
+      issuer: "Ed Donner, Ligency Team",
+      date: "2025",
+      credentialId: "UC-cb752353-9092-4d1d-92ef-12fdaad63f45",
+      description: "Build and deploy LLM apps, mastering Generative AI, RAG, LoRA and AI Agents.",
+      skills: ["APIs", "Hugging Face", "LoRA", "RAG", "Fine Tuning"]
     },
     {
-      title: "Meta Front-End Developer Certificate",
-      issuer: "Meta",
-      date: "2023",
-      credentialId: "META-FE-2023-003",
-      description: "Professional certificate in modern front-end development practices",
+      title: "Python Reinforcement Learning, Deep Q Learning, and TRFL",
+      issuer: "Packt Publishing",
+      date: "2024",
+      credentialId: "UC-bae5d4e8-ea56-4a03-bec3-aca80a8bab04",
+      description: "Leverage the power of Reinforcement Learning techniques to develop intelligent systems using Python",
       skills: ["React", "JavaScript", "HTML/CSS", "UI/UX Design"]
     },
     {
-      title: "Microsoft Azure Fundamentals",
-      issuer: "Microsoft",
-      date: "2023",
-      credentialId: "AZ-900-2023-004",
-      description: "Foundational knowledge of cloud services and Microsoft Azure",
-      skills: ["Azure Services", "Cloud Concepts", "Security", "Compliance"]
+      title: "Deep Search With Langgraph",
+      issuer: "LangChain Academy",
+      date: "2025",
+      credentialId: "rn87pn96wz",
+      description: "Build deep research agents with LangGraph",
+      skills: ["Langchain", "Langgraph", "Langsmith", "OpenAI", "Anthropic", "Tavily", "Wikipedia"]
     },
     {
-      title: "CompTIA Security+ CE",
-      issuer: "CompTIA",
-      date: "2023",
-      credentialId: "SEC+-2023-005",
-      description: "Industry-standard certification for cybersecurity fundamentals",
-      skills: ["Network Security", "Risk Management", "Cryptography", "Identity Management"]
+      title: "Building Ambient Agents with LangGraph",
+      issuer: "LangChain Academy",
+      date: "2025",
+      credentialId: "rn87pn96wz",
+      description: "Build and deploy ambient agents with LangGraph",
+      skills: ["Langchain", "Langgraph", "Langsmith", "OpenAI", "Trustcall"]
     },
     {
-      title: "Oracle Java SE 11 Developer",
-      issuer: "Oracle",
-      date: "2023",
-      credentialId: "OCA-JAVA-2023-006",
-      description: "Professional Java programming certification",
-      skills: ["Java Programming", "OOP", "Data Structures", "Algorithms"]
+      title: "Introduction to LangGraph",
+      issuer: "LangChain Academy",
+      date: "2025",
+      credentialId: "rn87pn96wz",
+      description: "Create powerful, production-ready LLM applications",
+      skills: ["Langchain", "Langgraph", "Langsmith", "OpenAI"]
     }
   ];
 
