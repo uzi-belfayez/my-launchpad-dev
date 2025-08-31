@@ -10,33 +10,44 @@ const Projects = () => {
       description: "AI-powered personal assistant that manages your tasks, profile, and preferences with long-term and short-term memory.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       technologies: ["Langchain", "Langgraph","Langsmith", "Trustcall","OpenAI", "Gradio", "uv"],
-      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+      liveUrl: "#",
+      githubUrl: "https://github.com/uzi-belfayez/AiDo"
     },
     {
       title: "Creative Researcher Agent",
       description: "Human-in-the-loop research assistant that generates analysts, gathers insights, and produces structured reports.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       technologies: ["Langchain", "Langgraph", "Langsmith","Trustcall", "OpenAI","Tavily","Gradio", "uv"],
-      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+      liveUrl: "#",
+      githubUrl: "https://github.com/uzi-belfayez/Creative_Researcher_Agent"
     },
       {
       title: "Pricer Agent",
       description: "An intelligent pricing system that scans websites for products and their prices, predicts the real market price, evaluates if it is a good deal, and presents the results through a Gradio interface with email notifications.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       technologies: ["Fine Tuning", "RAG", "Langchain", "OpenAI","Gemini", "Chroma db", "Modal", "Gradio","Twilio","Pushover","Beautiful Soup"],
-      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+      liveUrl: "#",
+      githubUrl: "https://github.com/uzi-belfayez/Pricer-Agent"
+    },
+    {
+      title: "CO2, Temperature, and Humidity Monitoring System with Presence Detection",
+      description: "A FreeRTOS monitoring system.",
+      image: "/images/realshit.jpg",
+      technologies: ["ESP32", "Arduino", "C", "FreeRTOS", "UART", "Web Server", "Web Socket"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/uzi-belfayez/ESP32_FREERTOS"
     },
     {
       title: "Vision Foot",
       description: "An intelligent blind-football coach.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      image: "/images/photo_projet_visionfoot_1.jpg",
       technologies: ["YOLO", "Arduino", "Raspberry Pi", "Electronics", "Solidworks"],
       liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
     },
     {
       title: "2D Football Game",
       description: "A pygame simulation of 4 Lego EV3 robots playing football autonomously with reinforcement learning.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
+      image: "/images/fuss3.PNG",
       technologies: ["Reinforcement learning", "Deep Q Learning", "Pytorch", "Pygame", "Python"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/FussballRoboter"
@@ -44,7 +55,7 @@ const Projects = () => {
     {
       title: "Chess-Playing Robotic Arm",
       description: "An academic project that consists of a robotic arm that plays chess autonomously.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+      image: "/images/chess1.PNG",
       technologies: ["Python", "Open CV", "Linear Optimisation", "Kinematics", "ROS2", "URDF", "Electronics"],
       liveUrl: "#",
       githubUrl: "#"
@@ -52,7 +63,7 @@ const Projects = () => {
     {
       title: "2D Java maven Game",
       description: "A three-level 2D game.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "/images/V3.PNG",
       technologies: ["Java", "Maven", "Scrum"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/ACL_Project"
@@ -60,7 +71,7 @@ const Projects = () => {
     {
       title: "Autonomous Differential Drive Robot",
       description: "An autonomous robot that does some specific tasks in a map for the eurobot international robotics competition.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "/images/uzi1.jpg",
       technologies: ["STM32","Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
       liveUrl: "#",
       githubUrl: "#"
@@ -68,7 +79,7 @@ const Projects = () => {
     {
       title: "Inertia Wheel Pendulum",
       description: "Equilibred and made a physical pendilum system.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "/images/olfa2.jpg",
       technologies: ["Arduino", "PID", "Control theory","MATLAB", "Proteus","Electronics", "LabVIEW", "Solid Works"],
       liveUrl: "#",
       githubUrl: "#"
@@ -76,18 +87,10 @@ const Projects = () => {
     {
       title: "Street Traffic Management with C pThreads",
       description: "A terminal simulation of a custumizable street traffic and managinf each vehicule and light with a thread.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "/images/C_3.PNG",
       technologies: ["C", "pThreads"],
       liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Simulation of an autonomous robot navigation in an unknown Environment",
-      description: "Using Gazebo, slam and navigation toolbox to simulate the navigation of a robot in an unknown map.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      technologies: ["ROS2", "Gazebo", "URDF", "SLAM", "Navigation toolbox"],
-      liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/uzi-belfayez/street-traffic-with-threads"
     }
 
   ];
