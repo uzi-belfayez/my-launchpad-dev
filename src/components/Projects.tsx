@@ -140,7 +140,7 @@ const Projects = () => {
               <CardContent className="pt-0">
                 <div className="flex flex-wrap gap-1">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="outline" className="text-xs px-2 py-0.5">
+                    <Badge key={techIndex} variant="outline" className="text-xs px-2 py-0.5 text-foreground">
                       {tech}
                     </Badge>
                   ))}
