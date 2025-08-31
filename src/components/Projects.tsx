@@ -138,9 +138,9 @@ const Projects = () => {
                 <CardDescription className="text-sm line-clamp-2">{project.description}</CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
-                <div className="flex flex-wrap gap-1">
+                <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="outline" className="text-xs px-2 py-0.5">
+                    <Badge key={techIndex} variant="tech" className="text-xs px-3 py-1">
                       {tech}
                     </Badge>
                   ))}
