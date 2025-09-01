@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       title: "2D Football Game",
-      description: "A pygame simulation of 4 Lego EV3 robots playing football autonomously with reinforcement learning.",
+      description: "A pygame simulation of 2v2 Lego EV3 robots playing football autonomously with reinforcement learning.",
       image: "/images/fuss3.PNG",
       technologies: ["Reinforcement learning", "Deep Q Learning", "Pytorch", "Pygame", "Python"],
       liveUrl: "#",
@@ -70,7 +70,7 @@ const Projects = () => {
     },
     {
       title: "Autonomous Differential Drive Robot",
-      description: "An autonomous robot that does some specific tasks in a map for the eurobot international robotics competition.",
+      description: "An autonomous robot that executes some specific tasks in a map for the eurobot international robotics competition.",
       image: "/images/uzi1.jpg",
       technologies: ["STM32","Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
       liveUrl: "https://drive.google.com/drive/folders/1dq2wWkLSTdp_PymOuCDYUm-6eURp33Du?usp=sharing",
@@ -78,7 +78,7 @@ const Projects = () => {
     },
     {
       title: "Inertia Wheel Pendulum",
-      description: "Equilibred and made a physical pendilum system.",
+      description: "A pendulum benchmark that uses PID and control theory equilibrate itself.",
       image: "/images/olfa2.jpg",
       technologies: ["Arduino", "PID", "Control theory","MATLAB", "Proteus","Electronics", "LabVIEW", "Solid Works"],
       liveUrl: "https://drive.google.com/drive/folders/1w_qClpOrhOC8VwG5rAiEgBV8imQScK-Z?usp=sharing",
@@ -86,7 +86,7 @@ const Projects = () => {
     },
     {
       title: "Street Traffic Management with C pThreads",
-      description: "A terminal simulation of a custumizable street traffic and managinf each vehicule and light with a thread.",
+      description: "A customizable street traffic simulation that manages each vehicule and street light with a thread.",
       image: "/images/C_3.PNG",
       technologies: ["C", "pThreads"],
       liveUrl: "#",

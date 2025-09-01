@@ -14,7 +14,7 @@ const About = () => {
       icon: <Code className="h-5 w-5" />,
       title: "Technical Projects",
       description: "Developed diverse projects in embedded systems, AI, robotics, and software development",
-      tags: ["C/C++", "Python", "ROS2", "Machine Learning", "Deep Learning", "GenAI", "Agentic AI", "SQL", "Gradio", "Git/GitHub", "Linux"]
+      tags: ["C/C++", "Python", "ROS2", "Machine Learning", "Deep Learning", "GenAI", "Agentic AI", "Embedded Systems", "Robotics","Electronics","SQL", "Gradio", "Git/GitHub", "Linux"]
     },
     {
       icon: <Users className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm a dedicated Computer Science student with a passion for technology and innovation. 
+            I'm a dedicated Engineering student with a passion for technology and innovation. 
             Here are some of my key achievements and areas of expertise.
           </p>
         </div>
