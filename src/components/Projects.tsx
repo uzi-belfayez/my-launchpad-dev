@@ -3,12 +3,25 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 
+// Import all project images
+import aidoImage from "@/assets/aido.png";
+import researchAgentImage from "@/assets/research_agent.png";
+import gradioAppImage from "@/assets/Gradio_App.png";
+import realshitImage from "@/assets/realshit.jpg";
+import visionFootImage from "@/assets/photo_projet_visionfoot_1.jpg";
+import fussImage from "@/assets/fuss3.PNG";
+import chessImage from "@/assets/chess1.PNG";
+import v3Image from "@/assets/V3.PNG";
+import uziImage from "@/assets/uzi1.jpg";
+import olfaImage from "@/assets/olfa2.jpg";
+import c3Image from "@/assets/C_3.PNG";
+
 const Projects = () => {
   const projects = [
       {
       title: "AiDo",
       description: "AI-powered personal assistant that manages your tasks, profile, and preferences with long-term and short-term memory.",
-      image: "/assets/aido.png",
+      image: aidoImage,
       technologies: ["Langchain", "Langgraph","Langsmith", "Trustcall","OpenAI", "Gradio", "uv"],
       liveUrl: "https://huggingface.co/spaces/uzi-belfayez/AiDo",
       githubUrl: "https://github.com/uzi-belfayez/AiDo"
@@ -16,7 +29,7 @@ const Projects = () => {
     {
       title: "Creative Researcher Agent",
       description: "Human-in-the-loop research assistant that generates analysts, gathers insights, and produces structured reports.",
-      image: "/assets/research_agent.png",
+      image: researchAgentImage,
       technologies: ["Langchain", "Langgraph", "Langsmith","Trustcall", "OpenAI","Tavily","Gradio", "uv"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/Creative_Researcher_Agent"
@@ -24,7 +37,7 @@ const Projects = () => {
       {
       title: "Pricer Agent",
       description: "An intelligent pricing system that scans websites for products and their prices, predicts the real market price, evaluates if it is a good deal, and presents the results through a Gradio interface with email notifications.",
-      image: "/assets/Gradio_App.png",
+      image: gradioAppImage,
       technologies: ["Fine Tuning", "RAG", "Langchain", "OpenAI","Gemini", "Chroma db", "Modal", "Gradio","Twilio","Pushover","Beautiful Soup"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/Pricer-Agent"
@@ -32,7 +45,7 @@ const Projects = () => {
     {
       title: "CO2, Temperature, and Humidity Monitoring System with Presence Detection",
       description: "A FreeRTOS monitoring system.",
-      image: "/assets/realshit.jpg",
+      image: realshitImage,
       technologies: ["ESP32", "Arduino", "C", "FreeRTOS", "UART", "Web Server", "Web Socket"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/ESP32_FREERTOS"
@@ -40,14 +53,14 @@ const Projects = () => {
     {
       title: "Vision Foot",
       description: "An intelligent blind-football coach.",
-      image: "/assets/photo_projet_visionfoot_1.jpg",
+      image: visionFootImage,
       technologies: ["YOLO", "Arduino", "Raspberry Pi", "Electronics", "Solidworks"],
       liveUrl: "https://drive.google.com/file/d/1_9XuyOpnaoLRMgqSIe2JaXV-mPOcCSa0/view?usp=sharing",
     },
     {
       title: "2D Football Game",
       description: "A pygame simulation of 2v2 Lego EV3 robots playing football autonomously with reinforcement learning.",
-      image: "/assets/fuss3.PNG",
+      image: fussImage,
       technologies: ["Reinforcement learning", "Deep Q Learning", "Pytorch", "Pygame", "Python"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/FussballRoboter"
@@ -55,7 +68,7 @@ const Projects = () => {
     {
       title: "Chess-Playing Robotic Arm",
       description: "An academic project that consists of a robotic arm that plays chess autonomously.",
-      image: "/assets/chess1.PNG",
+      image: chessImage,
       technologies: ["Python", "Open CV", "Linear Optimisation", "Kinematics", "ROS2", "URDF", "Electronics"],
       liveUrl: "https://drive.google.com/drive/folders/1osegSjuNhSViFtTryh0kZrCPeeW2OAKV?usp=sharing",
       githubUrl: "#"
@@ -63,7 +76,7 @@ const Projects = () => {
     {
       title: "2D Java maven Game",
       description: "A three-level 2D game.",
-      image: "/assets/V3.PNG",
+      image: v3Image,
       technologies: ["Java", "Maven", "Scrum"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/ACL_Project"
@@ -71,7 +84,7 @@ const Projects = () => {
     {
       title: "Autonomous Differential Drive Robot",
       description: "An autonomous robot that executes some specific tasks in a map for the eurobot international robotics competition.",
-      image: "/assets/uzi1.jpg",
+      image: uziImage,
       technologies: ["STM32","Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
       liveUrl: "https://drive.google.com/drive/folders/1dq2wWkLSTdp_PymOuCDYUm-6eURp33Du?usp=sharing",
       githubUrl: "#"
@@ -79,7 +92,7 @@ const Projects = () => {
     {
       title: "Inertia Wheel Pendulum",
       description: "A pendulum benchmark that uses PID and control theory equilibrate itself.",
-      image: "/assets/olfa2.jpg",
+      image: olfaImage,
       technologies: ["Arduino", "PID", "Control theory","MATLAB", "Proteus","Electronics", "LabVIEW", "Solid Works"],
       liveUrl: "https://drive.google.com/drive/folders/1w_qClpOrhOC8VwG5rAiEgBV8imQScK-Z?usp=sharing",
       githubUrl: "#"
@@ -87,7 +100,7 @@ const Projects = () => {
     {
       title: "Street Traffic Management with C pThreads",
       description: "A customizable street traffic simulation that manages each vehicule and street light with a thread.",
-      image: "/assets/C_3.PNG",
+      image: c3Image,
       technologies: ["C", "pThreads"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/street-traffic-with-threads"
