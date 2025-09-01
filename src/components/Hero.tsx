@@ -75,8 +75,15 @@ const Hero = () => {
           <div className="relative z-10">
             <img 
               src={heroImage} 
-              alt="Your profile picture" 
+              alt="Rayen Belfayez - Engineering Student & AI/Embedded Systems Enthusiast" 
               className="rounded-full shadow-card w-80 h-80 object-cover border-4 border-primary/20"
+              loading="eager"
+              decoding="async"
+              style={{ 
+                imageRendering: 'crisp-edges',
+                backfaceVisibility: 'hidden',
+                transform: 'translateZ(0)'
+              }}
             />
           </div>
           <div className="absolute inset-0 bg-gradient-primary opacity-20 rounded-full blur-xl w-80 h-80 mx-auto"></div>
