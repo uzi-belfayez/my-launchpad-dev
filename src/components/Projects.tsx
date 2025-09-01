@@ -8,15 +8,15 @@ const Projects = () => {
       {
       title: "AiDo",
       description: "AI-powered personal assistant that manages your tasks, profile, and preferences with long-term and short-term memory.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      image: "/images/aido.png",
       technologies: ["Langchain", "Langgraph","Langsmith", "Trustcall","OpenAI", "Gradio", "uv"],
-      liveUrl: "#",
+      liveUrl: "https://huggingface.co/spaces/uzi-belfayez/AiDo",
       githubUrl: "https://github.com/uzi-belfayez/AiDo"
     },
     {
       title: "Creative Researcher Agent",
       description: "Human-in-the-loop research assistant that generates analysts, gathers insights, and produces structured reports.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      image: "/images/research_agent.png",
       technologies: ["Langchain", "Langgraph", "Langsmith","Trustcall", "OpenAI","Tavily","Gradio", "uv"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/Creative_Researcher_Agent"
@@ -24,7 +24,7 @@ const Projects = () => {
       {
       title: "Pricer Agent",
       description: "An intelligent pricing system that scans websites for products and their prices, predicts the real market price, evaluates if it is a good deal, and presents the results through a Gradio interface with email notifications.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      image: "/images/Gradio_App.png",
       technologies: ["Fine Tuning", "RAG", "Langchain", "OpenAI","Gemini", "Chroma db", "Modal", "Gradio","Twilio","Pushover","Beautiful Soup"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/Pricer-Agent"
