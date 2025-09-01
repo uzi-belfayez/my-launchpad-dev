@@ -42,7 +42,7 @@ const Projects = () => {
       description: "An intelligent blind-football coach.",
       image: "/images/photo_projet_visionfoot_1.jpg",
       technologies: ["YOLO", "Arduino", "Raspberry Pi", "Electronics", "Solidworks"],
-      liveUrl: "https://www.fondationorange.com/fr/challenge/2024/et-les-gagnants-sont/visionfoot-passe-decisive-pour-linclusion",
+      liveUrl: "https://drive.google.com/file/d/1_9XuyOpnaoLRMgqSIe2JaXV-mPOcCSa0/view?usp=sharing",
     },
     {
       title: "2D Football Game",
@@ -57,7 +57,7 @@ const Projects = () => {
       description: "An academic project that consists of a robotic arm that plays chess autonomously.",
       image: "/images/chess1.PNG",
       technologies: ["Python", "Open CV", "Linear Optimisation", "Kinematics", "ROS2", "URDF", "Electronics"],
-      liveUrl: "#",
+      liveUrl: "https://drive.google.com/drive/folders/1osegSjuNhSViFtTryh0kZrCPeeW2OAKV?usp=sharing",
       githubUrl: "#"
     },
     {
@@ -73,7 +73,7 @@ const Projects = () => {
       description: "An autonomous robot that does some specific tasks in a map for the eurobot international robotics competition.",
       image: "/images/uzi1.jpg",
       technologies: ["STM32","Arduino", "Raspberry Pi", "ROS", "Electronics", "Solid Works"],
-      liveUrl: "#",
+      liveUrl: "https://drive.google.com/drive/folders/1dq2wWkLSTdp_PymOuCDYUm-6eURp33Du?usp=sharing",
       githubUrl: "#"
     },
     {
@@ -81,7 +81,7 @@ const Projects = () => {
       description: "Equilibred and made a physical pendilum system.",
       image: "/images/olfa2.jpg",
       technologies: ["Arduino", "PID", "Control theory","MATLAB", "Proteus","Electronics", "LabVIEW", "Solid Works"],
-      liveUrl: "#",
+      liveUrl: "https://drive.google.com/drive/folders/1w_qClpOrhOC8VwG5rAiEgBV8imQScK-Z?usp=sharing",
       githubUrl: "#"
     },
     {
