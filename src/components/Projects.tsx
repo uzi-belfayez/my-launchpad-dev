@@ -15,6 +15,7 @@ import v3Image from "@/assets/V3.PNG";
 import uziImage from "@/assets/uzi1.jpg";
 import olfaImage from "@/assets/olfa2.jpg";
 import c3Image from "@/assets/C_3.PNG";
+import c3Image from "@/assets/bot1.PNG";
 
 const Projects = () => {
   const projects = [
