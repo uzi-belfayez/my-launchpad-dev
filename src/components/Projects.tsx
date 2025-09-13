@@ -46,7 +46,7 @@ const Projects = () => {
     {
       title: "ROS2-Mobile-Robot-Platform",
       description: "ROS2-based mobile robot platform designed for both simulation and real-world robotics applications.",
-      image: realshitImage,
+      image: bot1,
       technologies: ["ROS2", "Navigation Stack", "RViz", "URDF/XACRO", "Python", "Cmake"],
       liveUrl: "#",
       githubUrl: "https://github.com/uzi-belfayez/ROS2-Mobile-Robot-Platform"
